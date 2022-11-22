@@ -1,0 +1,5 @@
+@import "src/styles/sass/mixins";
+
+.tagsList {
+  @include flex(row, stretch, center, wrap);
+}

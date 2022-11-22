@@ -1,0 +1,13 @@
+@import "src/styles/sass/mixins";
+
+.notesFilter {
+  margin: 20px 0;
+  position: relative;
+
+  .test {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 23px;
+  }
+}

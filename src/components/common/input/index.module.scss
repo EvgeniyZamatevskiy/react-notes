@@ -1,0 +1,19 @@
+@import "src/styles/sass/mixins.scss";
+
+.container {
+  @include flex(column, stretch, stretch);
+
+  .primary {
+    padding: 6.5px;
+    border: 2px solid #61DAFB;
+  }
+
+  .errorInput {
+    border: 1px solid red;
+  }
+
+  .errorMessage {
+    color: red;
+    margin: 5px 0;
+  }
+}

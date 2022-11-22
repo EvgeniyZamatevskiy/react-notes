@@ -1,0 +1,38 @@
+@import 'src/styles/sass/mixins';
+
+.noteItem {
+  @include flex(column, stretch, stretch);
+  padding: 15px;
+  border: 2px solid #61DAFB;
+  margin-top: 15px;
+
+  .body {
+    @include flex(row, space-between, center);
+
+    .edit {
+      @include flex(row, stretch, center);
+
+      .saveButton {
+        margin-left: 1px;
+      }
+    }
+
+    .title {
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .buttons {
+      height: 70px;
+      @include flex(column, space-between, stretch);
+
+      .removeButton {
+        border: 2px solid #ffcccc;
+      }
+
+      .editButton {
+        border: 2px solid #d1e5ff;
+      }
+    }
+  }
+}

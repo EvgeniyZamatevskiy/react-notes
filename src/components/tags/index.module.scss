@@ -1,0 +1,6 @@
+@import "src/styles/sass/mixins";
+
+.tags {
+  @include flex(column, stretch, stretch);
+  margin-top: 10px;
+}

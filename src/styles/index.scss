@@ -1,0 +1,11 @@
+@import "./reset.scss";
+@import "./sass/mixins";
+
+#root {
+  @include flex(row, center, center);
+}
+
+.app {
+  width: 800px;
+  margin: 15px 0;
+}

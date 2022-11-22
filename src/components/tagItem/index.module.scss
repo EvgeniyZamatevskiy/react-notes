@@ -1,0 +1,20 @@
+@import "src/styles/sass/mixins";
+
+.tagItem {
+  border-radius: 30px;
+  min-width: 60px;
+  min-height: 40px;
+  background: rgb(248, 248, 248);
+  @include flex(row, center, center);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  .removeTagButton {
+    margin-left: 5px;
+  }
+}
+
+.active {
+  background: rgb(225, 225, 225);
+}

@@ -1,0 +1,24 @@
+@import "src/styles/sass/mixins";
+
+.tasksForm {
+  min-height: 35px;
+
+  .body {
+    @include flex(row, stretch, center);
+
+    .addButton {
+      margin-left: 1px;
+    }
+  }
+
+  .plusButton {
+    @include flex(row, center, center);
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    background: rgb(248, 248, 248);
+    font-weight: 700;
+    font-size: 28px;
+  }
+}
